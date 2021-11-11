@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+span {
+  font-weight: 700;
+}
+h3 {
+  line-height: 1.25;
+  font-weight: 500;
+  color: #3D405B;
+  font-size: 48px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  width: 1500px;
+  margin: 0 auto;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #3D405B;
+}
+.header-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  color: white;
+  background-color: #3D405B;
+  padding: 17px 63px;
+  font-size: 24px;
+  font-weight: 500;
+  border: 0;
+}
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  margin: 0 40px 0 0;
+  padding: 0;
+}
+.main {
+  background-image: url("img/main-img.svg");
+  height: 1080px;
+  background-repeat: no-repeat;
+  background-position: 110%;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 1500px;
+  margin: 0 auto;
+  justify-content: center;
+  height: 1000px;
+  font-weight: 500;
+}
+.main-content h3 {
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+.main-content p {
+  margin: 0;
+}
+.main-btn1, .main-btn2 {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 17px 63px;
+  margin-top: 58px;
+  border: 0;
+}
+.main-btn1 {
+  background-color: #3D405B;
+  color: white;
+  border: 3px #3D405B solid;
+}
+.main-btn2 {
+  color: #3D405B;
+  background-color: white;
+  border: 3px #3D405B solid;
+  margin-left: 44px;
+}
+.feature {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, min-content);
+  width: 1500px;
+  margin: 0 auto;
+}
+.intro {
+  grid-column: 1/7;
+  grid-row: 1;
+  font-weight: 500;
+}
+.adv {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.disadv {
+  grid-column: 4/7;
+  grid-row: 2;
+}
+.feature-btn {
+  grid-column: 1/4;
+  grid-row: 3;
+}
+.feature-img {
+  grid-column: 7/13;
+  grid-row: 1/4;
+}
+.text_l {
+  grid-column: 1/6;
+  grid-row: 1;
+  margin-top: 100px;
+}
+.text_r {
+  grid-column: 7/12;
+  grid-row: 1;
+  margin-top: 100px;
+}
+.img_r {
+  grid-column: 7/13;
+  grid-row: 1/3;
+}
+.img_l {
+  grid-column: 1/6;
+  grid-row: 1/3;
+}
+.calm, .eat {
+  display: grid;
+  grid-template: repeat(3, min-content) / repeat(12, 1fr);
+  width: 1500px;
+  margin: 20px auto;
+}
+.night {
+  display: grid;
+  grid-template: repeat(4, min-content) / repeat(12, 1fr);
+  width: 1500px;
+  margin: 20px auto;
+}
+.night-btn {
+  grid-column: 6 / 8;
+  grid-row: 4;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.meow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.meow h3 {
+  margin: 162px 0 0 0;
+}
+.meow p {
+  font-weight: 500;
+  margin: 0;
+}
+.pic {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  justify-items: center;
+  align-items: end;
+  margin: 0 0 32px 0;
+}
+.pic img {
+  grid-row: 1;
+  grid-column: 1;
+  margin: 57px 0 0 0;
+}
+.pic p {
+  font-size: 144px;
+  margin: 0;
+  color: #E07A5F;
+  grid-row: 1;
+  grid-column: 1;
+}
+.meow_btn {
+  margin-bottom: 75px;
+}
